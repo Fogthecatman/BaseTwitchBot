@@ -6,8 +6,8 @@ public class Driver {
 		Bot b = new Bot();
 		
 		try {
-	    	System.out.println("Trying Login");
-	    	String channel  = "#fogthecatman";
+	    		System.out.println("Trying Login");
+	    		String channel  = "#fogthecatman";
 			String password = "oauth:myOathKey";
 			b.connect("irc.twitch.tv", 6667, password);
 			b.setVerbose(false);
